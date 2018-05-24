@@ -64,7 +64,7 @@ html h2, body h2 {
 #card #front #top-pic {
   height: 50%;
   width: 100%;
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/card_background.jpg);
   background-size: cover;
 }
 #card #front #avatar {
