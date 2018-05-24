@@ -22,7 +22,7 @@ html h2, body h2 {
 }
 
 #wrapper {
-  opacity: 0;
+  opacity: 100;
   display: table;
   height: 100%;
   width: 100%;
