@@ -64,7 +64,7 @@ html h2, body h2 {
 #card #front #top-pic {
   height: 50%;
   width: 100%;
-  background-image: url(../images/card_background.jpg);
+  background-image: url(../images/trees_card.jpg);
   background-size: cover;
 }
 #card #front #avatar {
@@ -75,7 +75,7 @@ html h2, body h2 {
   margin: -77px 0 0 -57px;
   border-radius: 100%;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.8), 0 4px 5px rgba(107, 5, 0, 0.6), 0 0 50px 50px rgba(255, 255, 255, 0.25);
-  background-image: url(../images/Greg_tucker.jpg);
+  background-image: url(../images/celso.jpg);
   background-size: contain;
   position: absolute;
   z-index: 1;
@@ -163,7 +163,7 @@ html h2, body h2 {
   top: -30px;
   left: -30px;
   -webkit-filter: blur(10px);
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/sunset_background.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -179,3 +179,46 @@ html h2, body h2 {
     right: 50px;
   }
 }
+/*Adapting to the device used*/
+
+@media (max-width: 480px) {
+  #card {
+    width: 90vw; 
+    height: auto;
+    margin: 20px auto;
+  }
+
+  #card #front #info-box {
+    padding: 20px;
+  }
+
+  #card #front #top-pic {
+    height: 150px; 
+  }
+
+  #card #front #avatar {
+    width: 80px;
+    height: 80px;
+    margin: -60px 0 0 -40px;
+  }
+
+  html h1, body h1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  html h2, body h2 {
+    font-size: 13px;
+  }
+
+  #card #front #social-bar {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  #card #front #social-bar a {
+    padding: 3px;
+  }
+}
+
