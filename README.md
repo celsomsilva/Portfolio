@@ -1,6 +1,7 @@
 # Portfolio
 
 This repository hosts a personal portfolio website — a clean, modern, and responsive front-end designed to showcase my profile, skills, and links to my projects.
+>The project is still under construction and requires some finishing touches.
 
 ---
 
